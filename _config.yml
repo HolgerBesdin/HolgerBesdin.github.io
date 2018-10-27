@@ -1,0 +1,50 @@
+title: Digital Home of Holger Besdin
+author: Holger Besdin
+email: cryp2pass@gmx.de
+description: > # this means to ignore newlines until "twitter_username:"
+  Tech topics and interesting things about the Windows 10 apps "Birthday Hub" the anniversary reminder
+  and "my Log" the diary of the future, which has become present.
+
+# social links
+twitter_username: cryp2pass
+github_username:  HolgerBesdin
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ 
+#nach include: müssen 2 Leerzeichen folgen, sonst funktioniert der Import nicht 
+include:  ['_pages']
+ 
